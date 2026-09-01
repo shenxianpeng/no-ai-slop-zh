@@ -81,9 +81,9 @@ skill 名字是 `no-ai-slop-zh`，和英文原版的 `no-ai-slop` 错开，两�
 
 ## 谁做的
 
-这是我个人 AI 操作系统中的一个 skill。完整的工具库，包括课程和工作流，在 [Behind the Craft](https://behindthecraft.com)。
+[shenxianpeng](https://github.com/shenxianpeng) 维护中文版。
 
-原始英文版来自 [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop)。
+原始英文版来自 [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop)，本仓库在它的基础上重写了全部模式和规则，使其适用于中文写作。
 
 ## 许可证
 
