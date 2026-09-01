@@ -1,0 +1,13 @@
+{
+  "name": "no-ai-slop-zh",
+  "displayName": "去 AI 味",
+  "description": "识别并去除中文写作中的 AI 套话模式，同时保留作者的个人风格。",
+  "version": "1.0.0",
+  "author": {
+    "name": "shenxianpeng"
+  },
+  "homepage": "https://github.com/shenxianpeng/no-ai-slop-zh",
+  "repository": "https://github.com/shenxianpeng/no-ai-slop-zh",
+  "license": "MIT",
+  "keywords": ["writing", "editing", "chinese", "ai-slop"]
+}

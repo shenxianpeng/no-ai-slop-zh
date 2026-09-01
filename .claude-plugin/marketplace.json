@@ -1,0 +1,14 @@
+{
+  "name": "shenxianpeng-skills",
+  "owner": {
+    "name": "shenxianpeng"
+  },
+  "description": "shenxianpeng 的 Claude Code 插件集合，目前包含中文去 AI 味 skill。",
+  "plugins": [
+    {
+      "name": "no-ai-slop-zh",
+      "source": "./",
+      "description": "识别并去除中文写作中的 AI 套话模式，同时保留作者的个人风格。"
+    }
+  ]
+}

@@ -34,36 +34,50 @@
 
 ## 安装
 
-在 Claude Code、Codex 或你常用的 AI 工具中粘贴：
+推荐用插件方式装，之后我更新模式和规则，你能自动拿到。在 Claude Code 里执行：
 
-"全局安装这个 skill：[https://github.com/shenxianpeng/no-ai-slop](https://github.com/shenxianpeng/no-ai-slop)"
+```
+/plugin marketplace add shenxianpeng/no-ai-slop-zh
+/plugin install no-ai-slop-zh@shenxianpeng-skills
+```
+
+也可以手动装：把 `skills/no-ai-slop-zh/` 整个目录复制到 `~/.claude/skills/` 下（只对当前项目生效就复制到项目的 `.claude/skills/`）。手动装的缺点是没法自动更新。
+
+或者在 Claude Code、Codex 或你常用的 AI 工具中粘贴：
+
+"全局安装这个 skill：[https://github.com/shenxianpeng/no-ai-slop-zh](https://github.com/shenxianpeng/no-ai-slop-zh)"
+
+skill 名字是 `no-ai-slop-zh`，和英文原版的 `no-ai-slop` 错开，两个可以同时装。
 
 ## 使用
 
 **1. 编辑草稿。** 粘贴草稿并调用 skill：
 
 ```
-/no-ai-slop
+/no-ai-slop-zh
 
 [你的草稿]
 ```
 
-你会得到编辑后的草稿和一个简短的「改了什么」部分。这个 skill 只做最小有效修改，然后对照 [eval.md](eval.md) 自检。
+你会得到编辑后的草稿和一个简短的「改了什么」部分。这个 skill 只做最小有效修改，然后对照 [eval.md](skills/no-ai-slop-zh/eval.md) 自检。
 
 **2. 检测 AI 味。** 让它判断一段文字是否有 AI 味：
 
 ```
-/no-ai-slop 这是 AI 写的吗？
+/no-ai-slop-zh 这是 AI 写的吗？
 
 [待检测文本]
 ```
 
 你会得到它找到的每个模式以及对应的原文引用。
 
+插件方式装的，显式调用要带插件前缀：`/no-ai-slop-zh:no-ai-slop-zh`。不显式调用也行，写中文草稿时它会自己判断要不要出来。
+
 ## 文件
 
-1. `SKILL.md`：编辑规则和工作流程。
-2. `eval.md`：skill 对自身编辑结果的通过/不通过检查清单。
+1. `skills/no-ai-slop-zh/SKILL.md`：编辑规则和工作流程。
+2. `skills/no-ai-slop-zh/eval.md`：skill 对自身编辑结果的通过/不通过检查清单。
+3. `.claude-plugin/`：插件清单和 marketplace 配置，用于插件安装和自动更新。
 
 ## 谁做的
 
