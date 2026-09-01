@@ -37,7 +37,7 @@
 推荐用插件方式装，之后我更新模式和规则，你能自动拿到。在 Claude Code 里执行：
 
 ```
-/plugin marketplace add shenxianpeng/no-ai-slop
+/plugin marketplace add shenxianpeng/no-ai-slop-zh
 /plugin install no-ai-slop-zh@shenxianpeng-skills
 ```
 
@@ -45,7 +45,7 @@
 
 或者在 Claude Code、Codex 或你常用的 AI 工具中粘贴：
 
-"全局安装这个 skill：[https://github.com/shenxianpeng/no-ai-slop](https://github.com/shenxianpeng/no-ai-slop)"
+"全局安装这个 skill：[https://github.com/shenxianpeng/no-ai-slop-zh](https://github.com/shenxianpeng/no-ai-slop-zh)"
 
 skill 名字是 `no-ai-slop-zh`，和英文原版的 `no-ai-slop` 错开，两个可以同时装。
 
